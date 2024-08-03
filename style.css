@@ -29,7 +29,7 @@ body{
 @media only screen and (max-width:400px) {
     .card{
         height: 340px;
-        width: 350px;
+        width: 360px;
     }
 body{ 
 height:100svh;
