@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style-Sign-up.css">
+</head>
+<body>
+    <div class="card">
+        <form action="#" target="_blank" >
+            
+        <div class="form">
+
+            <div class="name">
+
+                <div class="first">
+                    <input type="text" placeholder="First Name" required >
+                </div>
+
+                <div class="last">
+                    <input type="text" placeholder="Last Name" required >
+                </div>
+
+            </div>
+
+            <div class="email_age_gender">
+                
+                <div class="email">
+                    <input type="email" placeholder="Email" required >
+                </div>
+
+                <div class="age_gender">
+
+                    <div class="age">
+                        <input type="number" min="18" max="150" placeholder="Age" required >
+                    </div>
+    
+                    <div class="gender">
+
+                            <select required >
+
+                                <option value="" >Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            
+                            </select>
+                        
+    
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="password_confirm">
+
+                <div class="password">
+                    <input type="password" placeholder="Password" required >
+                </div>
+
+                <div class="confirm_password">
+
+                    <input type="password" placeholder="Confirm Password" required >
+    
+                </div>
+
+            </div>
+
+            <div class="terms">
+
+                <input type="checkbox" id="terms" required >
+                <label for="terms">Terms and Conditions</label>
+
+            </div>
+
+            <div class="sign_up">
+                <input type="submit">
+            </div>
+
+            <div class="already">
+                <span>Already have a account? <a href="#">Sign-in</a></span>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
