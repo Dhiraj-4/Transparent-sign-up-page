@@ -29,11 +29,13 @@ body{
 @media only screen and (max-width:400px) {
     .card{
         height: 340px;
-        width: 360px;
+        width: 365px;
     }
-body{ 
-height:100svh;
+    body{ 
+    height:100svh;
+    }
 }
+
 .card form{
     height: 100%;
     width: 100%;
