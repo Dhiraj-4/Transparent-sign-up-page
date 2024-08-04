@@ -33,10 +33,10 @@ body{
         padding: 0;
     }
     .card form .form .password_confirm {
-        gap: 5px;
+        gap: 3px;
     }
     .card form .form .password_confirm .confirm_password{
-        width: 57.5%;
+        width: 60%;
     }
 }
 
