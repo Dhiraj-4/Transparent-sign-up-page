@@ -15,11 +15,11 @@
             <div class="name">
 
                 <div class="first">
-                    <input type="text" placeholder="First Name" required >
+                    <input minlength="3" type="text" placeholder="First Name" required >
                 </div>
 
                 <div class="last">
-                    <input type="text" placeholder="Last Name" required >
+                    <input minlength="3" type="text" placeholder="Last Name" required >
                 </div>
 
             </div>
@@ -27,7 +27,7 @@
             <div class="email_age_gender">
                 
                 <div class="email">
-                    <input type="email" placeholder="Email" required >
+                    <input pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}" type="email" placeholder="Email" required >
                 </div>
 
                 <div class="age_gender">
@@ -47,7 +47,6 @@
                             
                             </select>
                         
-    
                     </div>
     
                 </div>
@@ -56,12 +55,12 @@
             <div class="password_confirm">
 
                 <div class="password">
-                    <input type="password" placeholder="Password" required >
+                    <input pattern="[A_Za-z0-9.@-_%!#$^&*()=-]" title="password length must be greather or equal to 8" minlength="8" type="password" placeholder="Password" required >
                 </div>
 
                 <div class="confirm_password">
 
-                    <input type="password" placeholder="Confirm Password" required >
+                    <input pattern="[A_Za-z0-9.@-_%!#$^&*()=-]" title="password length must be greather or equal to 8" minlength="8" type="password" placeholder="Confirm Password" required >
     
                 </div>
 
