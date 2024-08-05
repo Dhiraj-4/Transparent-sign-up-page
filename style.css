@@ -107,10 +107,9 @@ input::placeholder{
 }
 .card form .form .email_age_gender .age_gender .gender select option{
     outline: none;
-    font-weight: 400;
-    border: none;
+    border: 2px solid rgba(255,255,255,1);
+    color: #000;
 }
-
 /* password */
 .card form .form .password_confirm{
     display: flex;
