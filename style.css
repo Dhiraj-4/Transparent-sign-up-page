@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100svh;
-    background-image: url(https://wallpapercave.com/wp/j1O8bCz.jpg);
+    background-image: url(img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -57,7 +57,7 @@ input{
     font-size: 16px;
     color: #fff;
     font-weight: 300;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255,255,255,1);
     outline: none;
     width: 100%;
     height: 100%;
@@ -66,6 +66,7 @@ input{
 }
 input::placeholder{
     color: #fff ;
+    font-weight: 400;
 }
 .card .form .name{
     display: flex;
@@ -96,18 +97,18 @@ input::placeholder{
 }
 .card form .form .email_age_gender .age_gender .gender select{
     outline: none;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255,255,255,1);
     height: 3rem;
     border-radius: 18px;
     padding-left: 10px;
     background-color: transparent;
     color: #fff;
+    font-weight: 400;
 }
 .card form .form .email_age_gender .age_gender .gender select option{
-    background: transparent;
     outline: none;
+    font-weight: 400;
     border: none;
-    color: #000;
 }
 
 /* password */
